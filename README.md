@@ -21,7 +21,7 @@ First we see a start point for 3 scripts.
 
 **Introduction**
 
-This picture have  the RGB scale as you can see below:
+This picture have a RGB scale as you can see below:
 ![image](https://github.com/Nahuel88Ar/Cells-Detection/IMAGES/example_image.tif)
 
 
