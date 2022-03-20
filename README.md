@@ -22,7 +22,7 @@ First we see a start point for 3 scripts.
 **Introduction**
 
 This picture have  the RGB scale as you can see below:
-![image](https://github.com/HelmholtzAI-Consultants-Munich/Automatic-Cell-Counter/blob/master/images/example_result.png)
+![image](https://github.com/Nahuel88Ar/Cells-Detection/IMAGES/example_image.tif)
 
 
 **Require arguments**:
