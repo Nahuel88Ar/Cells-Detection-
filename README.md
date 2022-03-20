@@ -1,13 +1,13 @@
 # Automatic Cell Counter
 
 ## What is this?
-This repository provides an automatic cell counter algorithm to count cell numbers in 2D microscopy images from Boyden Chamber assay and offers a user interface for further manual correction. 
+This repository provides an automatic cell counter algorithm to count cell numbers in 2D microscopy images from Diatoms Cells. 
 
 
 **Please star this repository if you like it :)**
 
 ## Installation:
-This algorithm has been implemented using **Python 3.7**. To install the necessary packages for this framework run:
+This algorithm has been implemented using **Python 3.8.8 bit 64**. To install the necessary packages for this framework run:
 ```
 pip install -r requirements.txt
 ```
