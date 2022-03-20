@@ -23,11 +23,11 @@ To run the cell counter, the user can easily input the following code in the ter
 * -image: The path of the input image or the path of the directory.
 
 ```
-python viewer.py --image example_data/8.tif
+python viewer.py --IMAGES/8.tif
 ```
 or
 ```
-python viewer.py --image example_data/
+python viewer.py --IMAGES/
 ```
 
 **Here is a tutorial to set up your Automatic Cell Counter for Windows**: [Tutorial](https://github.com/HelmholtzAI-Consultants-Munich/Automatic-Cell-Counter/blob/master/Python%20tutorial%20for%20Windows.pdf)
