@@ -61,7 +61,12 @@ Dilatation to close the pixels,closing to fill the holes inside,erosion to resto
 
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/grayscale_elipsis_2.jpg)
 
-*Stage 3*
+**Example output**:
+
+You get a detection and dataframe with values of all measures of each cell.
+
+
+
 
 **LABEL**
 
