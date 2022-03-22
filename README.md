@@ -20,17 +20,17 @@ To run the cell counter, the user can easily input the following codes in the te
 
 For ELIPSIS and LABEL methods you can use the next picture.
 
-![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data/6.tif)
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/6.tif)
 
 For BATCH Method you can use all this pictures to generate a folder and process in batch way.
 
-![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data/1.tif)
-![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data/2.tif)
-![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data/3.tif)
-![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data//4.tif)
-![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data//5.tif)
-![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data//6.tif)
-![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data//7.tif)
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/1.tif)
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/2.tif)
+![image](https://github.com//Nahuel88Ar/Cells-Detection-/example_data/3.tif)
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/4.tif)
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/5.tif)
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/6.tif)
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/7.tif)
 
 For all the methods you check the requirements on the libraries here:
 [Libraries](https://github.com/Nahuel88Ar/Cells-Detection-/requirements.txt)
@@ -42,14 +42,14 @@ For all the methods you check the requirements on the libraries here:
 
 You maybe input the path of the picture.
 
-![image](https://github.com//Nahuel88Ar//Cells-Detection-//IMAGES/path_elipsis.tif)
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//IMAGES/path_elipsis.png)
 
 After we use the rgb2gray function converts RGB images to grayscale.You have values between 0 and 1,black and white, foreground and background.
 You can input any value between 0 and 1.
 
 We get this result in this case for a value <0.5.
 
-
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//IMAGES/grayscale_elipsis.jpg)
 
 
 
