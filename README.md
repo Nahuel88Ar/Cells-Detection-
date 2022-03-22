@@ -67,6 +67,8 @@ Dilatation to close the pixels,closing to fill the holes inside,erosion to resto
 
 You get a detection and dataframe with values of all measures of each cell.
 
+[![6.png](https://i.postimg.cc/L6ZcgMjj/6.png)](https://postimg.cc/hfcyN6yG)
+
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/label_elipsis.png)
 
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/detection_elipsis.png)
