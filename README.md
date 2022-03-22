@@ -20,19 +20,17 @@ To run the cell counter, the user can easily input the following codes in the te
 
 For ELIPSIS and LABEL methods you can use the next picture.
 
-<p float="left">
-  <img src="https://postimg.cc/hfcyN6yG" width="350" />
-</p>
+[![6.png](https://i.postimg.cc/L6ZcgMjj/6.png)](https://postimg.cc/hfcyN6yG)
 
 For BATCH Method you can use all this pictures to generate a folder and process in batch way.
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/1.tif)
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/2.tif)
-![image](https://github.com//Nahuel88Ar/Cells-Detection-/example_data/3.tif)
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/4.tif)
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/5.tif)
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/6.tif)
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/7.tif)
+[![1.png](https://i.postimg.cc/Y24XSzwP/1.png)](https://postimg.cc/XXbKHFqK)
+[![2.png](https://i.postimg.cc/x1jMX9zd/2.png)](https://postimg.cc/Mv4v42tk)
+[![3.png](https://i.postimg.cc/k5b44Hf4/3.png)](https://postimg.cc/t19yvB0Q)
+[![4.png](https://i.postimg.cc/CLxxD5m9/4.png)](https://postimg.cc/K4CbhGX5)
+[![5.png](https://i.postimg.cc/1tS9z38C/5.png)](https://postimg.cc/VS7yG1Bn)
+[![6.png](https://i.postimg.cc/L6ZcgMjj/6.png)](https://postimg.cc/hfcyN6yG)
+[![7.png](https://i.postimg.cc/TY1T1SP6/7.png)](https://postimg.cc/XXRRDsFH)
 
 For all the methods you check the requirements on the libraries here:
 [Libraries](https://github.com/Nahuel88Ar/Cells-Detection-/requirements.txt)
@@ -66,8 +64,6 @@ Dilatation to close the pixels,closing to fill the holes inside,erosion to resto
 **Example output**:
 
 You get a detection and dataframe with values of all measures of each cell.
-
-[![6.png](https://i.postimg.cc/L6ZcgMjj/6.png)](https://postimg.cc/hfcyN6yG)
 
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/label_elipsis.png)
 
