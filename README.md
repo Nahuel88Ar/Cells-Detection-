@@ -47,9 +47,15 @@ You maybe input the path of the picture.
 After we use the rgb2gray function converts RGB images to grayscale.You have values between 0 and 1,black and white, foreground and background.
 You can input any value between 0 and 1.
 
-We get this result in this case for a value <0.5.
+We get this result for a value <0.5.
 
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/grayscale_elipsis.jpg)
+
+Still we have holes and irregular shapes in the detection, then we need to generate 2 functions for dilatation and erosion and use two more tools( closing and opening).
+
+Dilatation to close the pixels,closing to fill the holes inside,erosion to restore the original shape of the objects and opening to remove the noise on the image.
+
+
 
 
 
