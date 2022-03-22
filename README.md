@@ -40,6 +40,7 @@ For all the methods you check the requirements on the libraries here:
 First stage
 You maybe input the path of the picture.
 
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//IMAGES/path_elipsis.tif)
 
 
 
