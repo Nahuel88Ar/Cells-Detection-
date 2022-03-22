@@ -20,7 +20,7 @@ To run the cell counter, the user can easily input the following codes in the te
 
 For ELIPSIS and LABEL methods you can use the next picture.
 
-[![6.png](https://i.postimg.cc/L6ZcgMjj/6.png)](https://postimg.cc/hfcyN6yG)
+[![6.png](https://i.postimg.cc/VkMQbcQ3/6.png)](https://postimg.cc/v4QSpkmz)
 
 For BATCH Method you can use all this pictures to generate a folder and process in batch way.
 
