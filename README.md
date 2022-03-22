@@ -22,7 +22,7 @@ We use this picture to show how work each method.
 
 The picture is the next:
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/6.tif)
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/6.tif)
 
 This picture have a RGB scale as you can see below:
 
