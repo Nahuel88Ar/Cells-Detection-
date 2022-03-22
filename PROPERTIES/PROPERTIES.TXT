@@ -1,1 +1,4 @@
+You can access at all the measures to have this module in the next link:
+https://scikit-image.org/docs/0.16.x/api/skimage.measure.html
+
 
