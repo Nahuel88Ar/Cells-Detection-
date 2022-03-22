@@ -83,7 +83,7 @@ PENDIENT
 
 It is the script logical process.
 
-[Methods](https://github.com/Nahuel88Ar/Cells-Detection-/blob/f542c8bc5b7ba55b704dfbe46521399622a7b970/script%20logical%20process.pdf)
+[Elipsis and Label](https://github.com/Nahuel88Ar/Cells-Detection-/blob/a3657b42ebfb9e00c2f75c595bfc3d197ba82801/elipsis%20and%20label%20script%20logical%20process.pdf)
 
 
 
