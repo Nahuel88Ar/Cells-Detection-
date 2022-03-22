@@ -40,6 +40,8 @@ For all the methods you check the requirements on the libraries here:
 
 *Require arguments*
 
+*Stage 1*
+
 You maybe input the path of the picture.
 
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/path_elipsis.png)
@@ -60,6 +62,10 @@ Dilatation to close the pixels,closing to fill the holes inside,erosion to resto
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/grayscale_elipsis_2.jpg)
 
 *Stage 3*
+
+
+
+
 
 
 
