@@ -81,7 +81,9 @@ PENDIENT
 
 ## Methods:
 
-PENDIENT
+It is the script logical process.
+
+https://github.com/Nahuel88Ar/Cells-Detection-/blob/f542c8bc5b7ba55b704dfbe46521399622a7b970/script%20logical%20process.pdf
 
 
 
