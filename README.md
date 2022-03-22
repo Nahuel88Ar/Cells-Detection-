@@ -65,17 +65,22 @@ Dilatation to close the pixels,closing to fill the holes inside,erosion to resto
 
 You get a detection and dataframe with values of all measures of each cell.
 
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/label_elipsis.png)
 
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/detection_elipsis.png)
 
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/dataframe.png)
+
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/dataframe2.png)
 
 **LABEL**
 
 **BATCH**
 
 
-**Here is a tutorial to set up your Automatic Cell Counter for Windows**: [Tutorial](https://github.com/HelmholtzAI-Consultants-Munich/Automatic-Cell-Counter/blob/master/Python%20tutorial%20for%20Windows.pdf)
 
-**Example output**:
+
+
 
 ## Data:
 
