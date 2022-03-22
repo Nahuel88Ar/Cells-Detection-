@@ -16,7 +16,7 @@ If you are using conda first install pip by: ```conda install pip```
 
 ## Usage:
 
-To run the cell counter, the user can easily input the following codes in the terminal:ELIPSIS, LABEL OR BATCH.
+To run the cell detector, the user can easily input the following codes in the terminal:ELIPSIS, LABEL OR BATCH.
 
 For ELIPSIS and LABEL methods you can use the next picture.
 
