@@ -79,14 +79,6 @@ PENDIENT
 
 PENDIENT
 
-## Data:
-
-PENDIENT
-
-### Example images:
-
-PENDIENT
-
 ## Methods:
 
 PENDIENT
