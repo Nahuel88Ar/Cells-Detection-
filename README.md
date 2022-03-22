@@ -26,7 +26,7 @@ The picture is the next:
 
 This picture have a RGB scale as you can see below:
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/RGB FILTERS.JPG)
+![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/RGBFILTERS.JPG)
 
 We see each method for separated.
 
