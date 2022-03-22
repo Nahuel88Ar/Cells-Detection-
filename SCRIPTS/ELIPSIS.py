@@ -159,28 +159,3 @@ rslt_df = df[df['minor_axis_length'] > 40]
 print('\nResult dataframe :\n', rslt_df) 
 rslt_df.count() 
 print(rslt_df.count()) 
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
