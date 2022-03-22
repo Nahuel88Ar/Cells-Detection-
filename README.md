@@ -38,7 +38,8 @@ For all the methods you check the requirements on the libraries here:
 
 **ELIPSIS**
 First stage
-You 
+You maybe input the path of the picture.
+
 
 
 
