@@ -32,7 +32,7 @@ For BATCH Method you can use all this pictures to generate a folder and process 
 [![6.png](https://i.postimg.cc/xTzF6yxm/6.png)](https://postimg.cc/crdmHYN1)
 [![7.png](https://i.postimg.cc/TY1T1SP6/7.png)](https://postimg.cc/XXRRDsFH)
 
-**Here is a tutorial to set up your Automatic Cell Counter for Windows**: [Tutorial](https://github.com/Nahuel88Ar/Cells-Detection-/Python%20tutorial%20for%20Windows.pdf)
+**Here is a tutorial to set up your Automatic Cell Detector for Windows**: [Tutorial](https://github.com/Nahuel88Ar/Cells-Detection-/Python%20tutorial%20for%20Windows.pdf)
 
 **ELIPSIS**
 
