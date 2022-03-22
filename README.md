@@ -1,4 +1,4 @@
-# Automatic Cell Counter
+# Cells Detection
 
 ## What is this?
 This repository provides an automatic cell counter algorithm to count cell numbers in 2D microscopy images from Diatoms Cells. 
