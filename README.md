@@ -18,22 +18,36 @@ If you are using conda first install pip by: ```conda install pip```
 
 To run the cell counter, the user can easily input the following codes in the terminal:ELIPSIS, LABEL OR BATCH.
 
-We use this picture to show how work each method.
+For ELIPSIS and LABEL methods you can use the next picture.
 
-The picture is the next:
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data/6.tif)
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/example_data/6.tif)
+For BATCH Method you can use all this pictures to generate a folder and process in batch way.
+
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data/1.tif)
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data/2.tif)
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data/3.tif)
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data//4.tif)
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data//5.tif)
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data//6.tif)
+![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data//7.tif)
+
+For all the methods you check the requirements on the libraries here:
+[Libraries](https://github.com//Nahuel88Ar//Cells-Detection-//requirements.txt)
+
+
+**ELIPSIS**
+First stage
+You 
+
+
+
+**LABEL**
 
 This picture have a RGB scale as you can see below:
 
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/RGBFILTERS.JPG)
 
-We see each method for separated.
-
-**ELIPSIS**
-
-
-**LABEL**
 This picture have a RGB scale as you can see below:
 
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/example_image.tif)
