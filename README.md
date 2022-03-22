@@ -16,18 +16,19 @@ If you are using conda first install pip by: ```conda install pip```
 
 ## Usage:
 
-To run the cell counter, the user can easily input the following codes in the terminal:ELIPSIS, LABEL OR BATCH.
+**To run the cell counter, the user can easily input the following codes in the terminal:ELIPSIS, LABEL OR BATCH.
+
+**We use this picture to show how work each method.
+
+**The picture is the next:
 ```
-We use this picture to show how work each method.
-```
-The picture is the next:
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/6.tif)
 ```
-This picture have a RGB scale as you can see below:
+**This picture have a RGB scale as you can see below:
+```
 ![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/RGB FILTERS.JPG)
 ```
-
-We see each method for separated.
+**We see each method for separated.
 
 **ELIPSIS**
 
