@@ -33,7 +33,7 @@ For BATCH Method you can use all this pictures to generate a folder and process 
 ![image](https://github.com//Nahuel88Ar//Cells-Detection-//example_data//7.tif)
 
 For all the methods you check the requirements on the libraries here:
-[Libraries](https://github.com//Nahuel88Ar//Cells-Detection-//requirements.txt)
+[Libraries](https://github.com/Nahuel88Ar/Cells-Detection-/requirements.txt)
 
 
 **ELIPSIS**
