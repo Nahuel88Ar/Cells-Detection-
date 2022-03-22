@@ -38,11 +38,18 @@ For all the methods you check the requirements on the libraries here:
 
 **ELIPSIS**
 
-*First stage*
+*Require arguments*
 
 You maybe input the path of the picture.
 
 ![image](https://github.com//Nahuel88Ar//Cells-Detection-//IMAGES/path_elipsis.tif)
+
+After we use the rgb2gray function converts RGB images to grayscale.You have values between 0 and 1,black and white, foreground and background.
+You can input any value between 0 and 1.
+
+We get this result in this case for a value <0.5.
+
+
 
 
 
