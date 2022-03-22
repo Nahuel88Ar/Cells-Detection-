@@ -17,9 +17,11 @@ If you are using conda first install pip by: ```conda install pip```
 ## Usage:
 
 To run the cell counter, the user can easily input the following codes in the terminal:ELIPSIS, LABEL OR BATCH.
-First we start with a introduction.
+First we start the ELIPSIS METHOD.
 
 **ELIPSIS**
+![image](https://user-images.githubusercontent.com/87063711/159500163-3090521a-8036-439c-9a26-c8652719ded8.png)
+
 **LABEL**
 This picture have a RGB scale as you can see below:
 
