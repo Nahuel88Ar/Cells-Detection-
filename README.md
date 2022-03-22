@@ -42,7 +42,7 @@ For BATCH Method you can use all this pictures to generate a folder and process 
 
 You maybe input the path of the picture.
 
-[![path-elipsis.png](https://i.postimg.cc/NFHq7h29/path-elipsis.png)](https://postimg.cc/CnSQSQNS)
+[![path-elipsis.png](https://i.postimg.cc/4NpjfRCy/path-elipsis.png)](https://postimg.cc/4mNWPMxR)
 
 *Stage 2*
 
