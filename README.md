@@ -42,7 +42,7 @@ For BATCH Method you can use all this pictures to generate a folder and process 
 
 You maybe input the path of the picture.
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/path_elipsis.png)
+[![path-elipsis.png](https://i.postimg.cc/NFHq7h29/path-elipsis.png)](https://postimg.cc/CnSQSQNS)
 
 *Stage 2*
 
@@ -51,40 +51,45 @@ You can input any value between 0 and 1.
 
 We get this result for a value <0.5.
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/grayscale_elipsis.jpg)
+[![grayscale-elipsis.jpg](https://i.postimg.cc/L4cnd2TW/grayscale-elipsis.jpg)](https://postimg.cc/JtQ1ZwS3)
 
 Still we have holes and irregular shapes in the detection, then we need to generate 2 functions for dilatation and erosion and use two more tools( closing and opening).
 
 Dilatation to close the pixels,closing to fill the holes inside,erosion to restore the original shape of the objects and opening to remove the noise on the image.
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/grayscale_elipsis_2.jpg)
+[![grayscale-elipsis-2.jpg](https://i.postimg.cc/Nj4MrTch/grayscale-elipsis-2.jpg)](https://postimg.cc/MnnxCnHt)
 
 **Example output**:
 
 You get a detection and dataframe with values of all measures of each cell.
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/label_elipsis.png)
+[![detection-elipsis.png](https://i.postimg.cc/rw8ycmtf/detection-elipsis.png)](https://postimg.cc/JG2C5RxX)
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/detection_elipsis.png)
+[![label-elipsis.png](https://i.postimg.cc/YSPt1zDP/label-elipsis.png)](https://postimg.cc/zLnmNKrw)
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/dataframe.png)
+[![dataframe.png](https://i.postimg.cc/Wb7j9vfg/dataframe.png)](https://postimg.cc/sv1tXtzg)
 
-![image](https://github.com/Nahuel88Ar/Cells-Detection-/IMAGES/dataframe2.png)
+[![dataframe2.png](https://i.postimg.cc/DzSTybfP/dataframe2.png)](https://postimg.cc/NyvVdFHK)
 
 **LABEL**
 
+PENDIENT
+
 **BATCH**
 
-
-
-
-
+PENDIENT
 
 ## Data:
 
+PENDIENT
+
 ### Example images:
 
+PENDIENT
+
 ## Methods:
+
+PENDIENT
 
 
 
