@@ -29,7 +29,7 @@ For BATCH Method you can use all this pictures to generate a folder and process 
 [![3.png](https://i.postimg.cc/k5b44Hf4/3.png)](https://postimg.cc/t19yvB0Q)
 [![4.png](https://i.postimg.cc/CLxxD5m9/4.png)](https://postimg.cc/K4CbhGX5)
 [![5.png](https://i.postimg.cc/1tS9z38C/5.png)](https://postimg.cc/VS7yG1Bn)
-[![6.png](https://i.postimg.cc/L6ZcgMjj/6.png)](https://postimg.cc/hfcyN6yG)
+[![6.png](https://i.postimg.cc/xTzF6yxm/6.png)](https://postimg.cc/crdmHYN1)
 [![7.png](https://i.postimg.cc/TY1T1SP6/7.png)](https://postimg.cc/XXRRDsFH)
 
 For all the methods you check the requirements on the libraries here:
