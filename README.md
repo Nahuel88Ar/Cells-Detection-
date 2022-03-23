@@ -52,6 +52,7 @@ For BATCH Method you can use all this pictures to generate a folder and process 
 (*I am not exactly sure what the rules are, but if you want to use this tutorial in you own repository I think you should credti the makers*)
 
 **ELIPSIS**
+(*I think you should give a bit more explanation, let's go over it next week*)
 
 *Require arguments*
 
