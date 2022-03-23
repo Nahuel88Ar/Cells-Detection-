@@ -1,8 +1,24 @@
-# Cells Detection (The aim of the scripts is more to measure the cell sizes, which is a significant upgrade from cell detection only, so I would suggest changing the title to something that contains measure/measuments/size - maybe diatoMeasure?)
+# Cells Detection (*The aim of the scripts is more to measure the cell sizes, which is a significant upgrade from cell detection only, so I would suggest changing the title to something that contains measure/measuments/size - maybe diatoMeasure?*)
 
 ## What is this?
-This repository provides an automatic cell detector algorithm to detect and count cell numbers in 2D microscopy images from Diatoms Cells. (Also here I would mention that it detects the cells and measures their size. Also in this very beginning part I would already mention that there are 2 different methods that have independent scripts, and that one of these two method can be run in batch)
+This repository provides an automatic cell detector algorithm to detect and count cell numbers in 2D microscopy images from Diatoms Cells. (*Here you should mention that it detects the cells and measures their size. Also in this very beginning part I would already mention that there are 2 different methods called 'elipsis' and 'label' that have independent scripts, and that one of these two method can be run in batch*)
 
+(*I think you should give a brief overview of the contents of the repository, something like this:
+Description of files included:
+The folder SCRIPTS contains the python scripts that run the cell detection and measurement.
+The folder PROPERTIES contains ......
+requirements.txt - text file listing all required libaries and version.
+and so on*)
+
+(*Also here I think it would be good to say a few words on how to use these scripts in very simple words, something like this:
+The general strategy of both methods is to first segment the cells by ......
+Next the elipsis method measures the cells by....
+The label method measures the cells by....
+
+input: an image of cells, we use microscope images in .tiff format.
+output: 
+
+Also mention that the script was developed to detect and measure ellipsoidal cells.*)
 
 **Please star this repository if you like it :)**
 
