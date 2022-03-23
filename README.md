@@ -15,7 +15,7 @@ The general strategy of both methods is to first segment the cells by ......
 Next the elipsis method measures the cells by....
 The label method measures the cells by....
 input: an image of cells, we use microscope images in .tiff format.
-output: *
+output:
 
 Also mention that the script was developed to detect and measure ellipsoidal cells.*)
 
@@ -47,7 +47,9 @@ For BATCH Method you can use all this pictures to generate a folder and process 
 [![6.png](https://i.postimg.cc/xTzF6yxm/6.png)](https://postimg.cc/crdmHYN1)
 [![7.png](https://i.postimg.cc/TY1T1SP6/7.png)](https://postimg.cc/XXRRDsFH)
 
-**Here is a tutorial to set up your Automatic Cell Detector for Windows**: [Tutorial](https://github.com/Nahuel88Ar/Cells-Detection-/blob/72874b90ea4922d54d36b3e1101acefd4447c4c6/Python%20tutorial%20for%20Windows.pdf)
+**Here is a tutorial to set up your Automatic Cell Detector for Windows**: [Tutorial](https://github.com/Nahuel88Ar/Cells-Detection-/blob/72874b90ea4922d54d36b3e1101acefd4447c4c6/Python%20tutorial%20for%20Windows.pdf) 
+
+(*I am not exactly sure what the rules are, but if you want to use this tutorial in you own repository I think you should credti the makers*)
 
 **ELIPSIS**
 
@@ -55,13 +57,13 @@ For BATCH Method you can use all this pictures to generate a folder and process 
 
 *Stage 1*
 
-You maybe input the path of the picture.
+You may input the path of the image.
 
 [![path-elipsis.png](https://i.postimg.cc/4NpjfRCy/path-elipsis.png)](https://postimg.cc/4mNWPMxR)
 
 *Stage 2*
 
-After we use the rgb2gray function converts RGB images to grayscale.You have values between 0 and 1,black and white, foreground and background.
+After we use the rgb2gray function converts RGB images to grayscale. You have values between 0 and 1,black and white, foreground and background.
 You can input any value between 0 and 1.
 
 We get this result for a value <0.5.
