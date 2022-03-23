@@ -1,7 +1,7 @@
-# Cells Detection
+# Cells Detection (The aim of the scripts is more to measure the cell sizes, which is a significant upgrade from cell detection only, so I would suggest changing the title to something that contains measure/measuments/size - maybe diatoMeasure?)
 
 ## What is this?
-This repository provides an automatic cell detector algorithm to detect and count cell numbers in 2D microscopy images from Diatoms Cells. 
+This repository provides an automatic cell detector algorithm to detect and count cell numbers in 2D microscopy images from Diatoms Cells. (Also here I would mention that it detects the cells and measures their size. Also in this very beginning part I would already mention that there are 2 different methods that have independent scripts, and that one of these two method can be run in batch)
 
 
 **Please star this repository if you like it :)**
