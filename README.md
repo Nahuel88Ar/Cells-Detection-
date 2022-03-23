@@ -15,10 +15,10 @@ The general strategy of both methods is to first segment the cells by ......
 Next the elipsis method measures the cells by....
 The label method measures the cells by....
 
-input: an image of cells, we use microscope images in .tiff format.
-output: 
+*input: an image of cells, we use microscope images in .tiff format.
+*output: 
 
-Also mention that the script was developed to detect and measure ellipsoidal cells.*)
+*Also mention that the script was developed to detect and measure ellipsoidal cells.*)
 
 **Please star this repository if you like it :)**
 
