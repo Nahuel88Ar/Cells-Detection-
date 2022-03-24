@@ -27,13 +27,15 @@ The folders are:
 
 The general strategy of both methods is to first segments the cells by intensity of the pixels.
 
-Next the elipsis method measures the cells by
+Next the elipsis method measures the cells by simple scale(black and white), background and foreground.It use on the connectivity of the pixels to each other. As long as neighboring pixels share the same value if intensity, they will be labeled as a single region, a region can be a cell.
+After I got information of each region as: area, perimeter, major axis lengths,minor axis length, etc.
 
-The label method measures the cells by
+Next the label method measures the cells by Thresholding, also it use a simple scale(black and white) and replace each pixel in an image with a black pixel if the
+image intensity is less than a value or a white pixel if the image intensity is greater than that value.Returns a single intensity threshold that separate pixels into two classes,foreground and background.Use the variance generated in the histogram of intensity of each pixel in the image.
 
 **Input:** on image of cells, we use microscope images in .tiff format.
 
-**Output:**
+**Output:** Dataframe save in a excel file and binary image with the detected cells.
 
 The scripts was developed to detect and measure ellipsoidal cells.
 
