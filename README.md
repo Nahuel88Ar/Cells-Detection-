@@ -25,15 +25,17 @@ The folders are:
 
 **REQUIREMENTS:** Text file listing all required libraries and version.
 
+The general strategy of both methods is to first segments the cells by intensity of the pixels.
 
-(*Also here I think it would be good to say a few words on how to use these scripts in very simple words, something like this:
-The general strategy of both methods is to first segment the cells by ......
-Next the elipsis method measures the cells by....
-The label method measures the cells by....
-input: an image of cells, we use microscope images in .tiff format.
-output:
+Next the elipsis method measures the cells by
 
-Also mention that the script was developed to detect and measure ellipsoidal cells.*)
+The label method measures the cells by
+
+**Input:** on image of cells, we use microscope images in .tiff format.
+
+**Output:**
+
+The scripts was developed to detect and measure ellipsoidal cells.
 
 **Please star this repository if you like it :)**
 
