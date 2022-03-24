@@ -7,23 +7,23 @@ It contain 4 files and 4 folders.
 
 The files are:
 
--Python Tutorial for Windows where you can see as install the software and the correct packages to use the scripts.
+**Python Tutorial for Windows** Tutorial where can see as install the software and the correct packages to use the scripts.
 
--README: General description of all the proyect.
+**README:** General description of all the proyect.
 
--Elipsis and Label Logical Process: Description of the theorical and logical base of the proyect.
+**Elipsis and Label Logical Process:** Description of the theorical and logical base of the proyect.
 
--Requirements: All the libraries you need to install to run the scripts.
+**Requirements:** All the libraries you need to install to run the scripts.
 
 The folders are:
 
--IMAGES: All the images of my proyect since the first stage until last stage in each script.
+**IMAGES:** All the images of my proyect since the first stage until last stage in each script.
 
--PROPERTIES: It contains all the measures you can get with those scripts.
+**PROPERTIES:** It contains all the measures you can get with those scripts.
 
--SCRIPTS: It contains the python scripts that run the cell detection and measurement.
+**SCRIPTS:** It contains the python scripts that run the cell detection and measurement.
 
--REQUIREMENTS: Text file listing all required libraries and version.
+**REQUIREMENTS:** Text file listing all required libraries and version.
 
 
 (*Also here I think it would be good to say a few words on how to use these scripts in very simple words, something like this:
