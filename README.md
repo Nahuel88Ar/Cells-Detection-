@@ -4,15 +4,25 @@
 This repository provides automatic algorithms to detect and measures the size of each cell in 2D microscopy images from Diatoms Cells.There is 2 different independent scripts called 'elipsis' and 'label'. Also LABEL can be run in batch.  
 
 It contain 4 files and 4 folders.
+
 The files are:
+
 -Python Tutorial for Windows where you can see as install the software and the correct packages to use the scripts.
+
 -README: Description general of all the proyect.
+
 -Elipsis and Label Logical Process: Description of the theorical and logical base of the proyect.
+
 -Requirements: All the libraries you need to install to run the scripts.
+
 The folders are:
+
 -IMAGES: All the images of my proyect since the first stage until last stage in each script.
+
 -PROPERTIES: It contains all the measures you can get with those scripts.
+
 -SCRIPTS: It contains the python scripts that run the cell detection and measurement.
+
 -REQUIREMENTS: Text file listing all required libraries and version.
 
 
