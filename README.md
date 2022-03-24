@@ -1,9 +1,8 @@
-# Cells Detection (*The aim of the scripts is more to measure the cell sizes, which is a significant upgrade from cell detection only, so I would suggest changing the title to something that contains measure/measuments/size - maybe diatoMeasure?*)
+# Cells diatoMeasure 
 
 ## What is this?
-This repository provides an automatic cell detector algorithm to detect and count cell numbers in 2D microscopy images from Diatoms Cells. (*Here you should mention that it detects the cells and measures their size. Also in this very beginning part I would already mention that there are 2 different methods called 'elipsis' and 'label' that have independent scripts, and that one of these two method can be run in batch*)
+This repository provides automatic algorithms to detect and measures the size of each cell in 2D microscopy images from Diatoms Cells.There is 2 different independent scripts called 'elipsis' and 'label'. Also LABEL can be run in batch.  
 
-(*I think you should give a brief overview of the contents of the repository, something like this:
 Description of files included:
 The folder SCRIPTS contains the python scripts that run the cell detection and measurement.
 The folder PROPERTIES contains ......
