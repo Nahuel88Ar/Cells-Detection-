@@ -9,7 +9,7 @@ The files are:
 
 -Python Tutorial for Windows where you can see as install the software and the correct packages to use the scripts.
 
--README: Description general of all the proyect.
+-README: General description of all the proyect.
 
 -Elipsis and Label Logical Process: Description of the theorical and logical base of the proyect.
 
