@@ -42,38 +42,6 @@ It is a explication on what is a elipsis and your coordenates:
 
 Next, it run a loop for each properties in a region. We plot the minor and major length axis. In the last part you write the properties that you wish to get in your Dataframe. Finally, you can download this Dataframe in a excel file(.xls).
 
-## Label
-
-The general strategy of both methods is to first segments the cells by intensity of the pixels.
-First the original RGB imaged is converted to a grey scale image where only the red channel is considered.
-Next the label method detects the cells by Thresholding, also it use a simple scale(black and white) and replace each pixel in an image with a black pixel if the
-image intensity is less than a value or a white pixel if the image intensity is greater than that value. Returns a single intensity threshold that separate pixels into two classes,foreground and background. Use the variance generated in the histogram of intensity of each pixel in the image.
-The treshold is determined automatically by the otsu method, as follows:
-
-[![label-script-logical.png](https://i.postimg.cc/SNP2rkVy/label-script-logical.png)](https://postimg.cc/7fgZPvpc)
-
-Next, the tresholded images are filtered to remove objects/cells that are too small to be a cell and holes of a certain size are filled. The values for the filtering can be filled in (we usually use the value of 7000 for both).
-Next the segmented and cleaned image is used to make labels that correspond to the cells.
-Then a loop will measure the properties of each label and create a plot and dataframe.
-In the plotted image you can now click wrongly assigned labels to remove objects that are not cells.
-Then a new dataframe is produced that contains only the correct labels and you can dowload the dataframe in Excel file(.xls).
-
-**Input:** on image of cells, we use microscope images in .tiff format.
-
-**Output:** Dataframe save in a excel file and binary image with the detected cells.
-
-The scripts was developed to detect and measure ellipsoidal cells.
-
-**Please star this repository if you like it :)**
-
-## Installation:
-This algorithm has been implemented using **Python 3.8.8 bit 64**. To install the necessary packages for this framework download the requirements.txt file and run:
-```
-pip install -r requirements.txt
-```
-If you are using conda first install pip by: ```conda install pip```
-
-
 ## Usage:
 
 To run the cell detector, the user can easily input the following codes in the terminal:ELIPSIS, LABEL OR BATCH.
@@ -95,9 +63,6 @@ For BATCH Method you can use all this pictures to generate a folder and process 
 **Here is a very helpful tutorial provide by HelmholtzAI-Consultants-Munich/Automatic-Cell-Counter to set up your Automatic Cell Detector for Windows**: [Tutorial](https://github.com/Nahuel88Ar/Cells-Detection-/blob/72874b90ea4922d54d36b3e1101acefd4447c4c6/Python%20tutorial%20for%20Windows.pdf) 
 
 **ELIPSIS**
-(*I think you should give a bit more explanation, let's go over it next week*)
-
-*Require arguments*
 
 *Stage 1*
 
@@ -132,7 +97,21 @@ You get a detection and dataframe with values of all measures of each cell.
 
 [![dataframe2.png](https://i.postimg.cc/DzSTybfP/dataframe2.png)](https://postimg.cc/NyvVdFHK)
 
-**LABEL**
+## Label
+
+The general strategy of both methods is to first segments the cells by intensity of the pixels.
+First the original RGB imaged is converted to a grey scale image where only the red channel is considered.
+Next the label method detects the cells by Thresholding, also it use a simple scale(black and white) and replace each pixel in an image with a black pixel if the
+image intensity is less than a value or a white pixel if the image intensity is greater than that value. Returns a single intensity threshold that separate pixels into two classes,foreground and background. Use the variance generated in the histogram of intensity of each pixel in the image.
+The treshold is determined automatically by the otsu method, as follows:
+
+[![label-script-logical.png](https://i.postimg.cc/SNP2rkVy/label-script-logical.png)](https://postimg.cc/7fgZPvpc)
+
+Next, the tresholded images are filtered to remove objects/cells that are too small to be a cell and holes of a certain size are filled. The values for the filtering can be filled in (we usually use the value of 7000 for both).
+Next the segmented and cleaned image is used to make labels that correspond to the cells.
+Then a loop will measure the properties of each label and create a plot and dataframe.
+In the plotted image you can now click wrongly assigned labels to remove objects that are not cells.
+Then a new dataframe is produced that contains only the correct labels and you can dowload the dataframe in Excel file(.xls).
 
 *Require arguments*
 
@@ -156,10 +135,39 @@ You get a detection and dataframe with values of all measures of each cell.
 
 [![LABEL-OUTPUT.jpg](https://i.postimg.cc/3N559Y36/LABEL-OUTPUT.jpg)](https://postimg.cc/R6RDZr6Q)
 
+You can remove a object(not cell or unclear cell) with a click in the picture but not in the Dataframe.If you want to remove in Dataframe you need filter for a value, as in the example Minor Axis Length, you can print only all the cells major at this value.
+
+[![Removed-cell.jpg](https://i.postimg.cc/fkQnv82j/Removed-cell.jpg)](https://postimg.cc/wR2GqQd7)
+[![click2.png](https://i.postimg.cc/nVjX0MSC/click2.png)](https://postimg.cc/RqmC0CBB)
+
+Filter in the dataframe:
+[![filter-dataframe.png](https://i.postimg.cc/4xB4JT2D/filter-dataframe.png)](https://postimg.cc/ZWvzcXSH)
+
+
+
+
+
 
 **BATCH**
 
 PENDIENT
+
+
+**Input:** on image of cells, we use microscope images in .tiff format.
+
+**Output:** Dataframe save in a excel file and binary image with the detected cells.
+
+The scripts was developed to detect and measure ellipsoidal cells.
+
+**Please star this repository if you like it :)**
+
+## Installation:
+This algorithm has been implemented using **Python 3.8.8 bit 64**. To install the necessary packages for this framework download the requirements.txt file and run:
+```
+pip install -r requirements.txt
+```
+If you are using conda first install pip by: ```conda install pip```
+
 
 ## Methods:
 
