@@ -147,8 +147,11 @@ Filter in the dataframe and download the new Dataframe in Excel:
 
 **BATCH**
 
-This method is Label but run as batch, only have two difference with the Label script, first you open a folder with the Glob2 Library and you need
+This method is Label but run as batch, only have two difference with the Label script, first you open a folder with the Glob2 Library and you need use other loop to process all the images in the same time.
 
+You may input the path of the folder.
+
+[![path-batch.png](https://i.postimg.cc/RFvksPBv/path-batch.png)](https://postimg.cc/v1S2DtTK)
 
 **Input:** on image of cells, we use microscope images in .tiff format.
 
