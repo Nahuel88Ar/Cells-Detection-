@@ -95,7 +95,7 @@ You get a detection and dataframe with values of all measures of each cell.
 
 [![dataframe.png](https://i.postimg.cc/hGBB7L2R/dataframe.png)](https://postimg.cc/G4qNWy0X)
 
-[![dataframe2.png](https://i.postimg.cc/DZ4HjmjP/dataframe2.png)](https://postimg.cc/47ZWn4TY)
+[![dataframe2.png](https://i.postimg.cc/h4L7zncX/dataframe2.png)](https://postimg.cc/bdvvWKGP)
 
 ## Label
 
