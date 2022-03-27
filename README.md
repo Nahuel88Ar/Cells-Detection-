@@ -153,6 +153,13 @@ You may input the path of the folder.
 
 [![path-batch.png](https://i.postimg.cc/RFvksPBv/path-batch.png)](https://postimg.cc/v1S2DtTK)
 
+**Example output**:
+
+You get a dataframe with of all measures of each cell.
+
+[![dataframe-batch.png](https://i.postimg.cc/TYHWTS7H/dataframe-batch.png)](https://postimg.cc/6ynQ0HNd)
+
+
 **Input:** on image of cells, we use microscope images in .tiff format.
 
 **Output:** Dataframe save in a excel file and binary image with the detected cells.
