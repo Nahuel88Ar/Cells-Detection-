@@ -91,7 +91,7 @@ You get a detection and dataframe with values of all measures of each cell.
 
 [![label-elipsis.png](https://i.postimg.cc/YSPt1zDP/label-elipsis.png)](https://postimg.cc/zLnmNKrw)
 
-[![detection-elipsis.png](https://i.postimg.cc/rw8ycmtf/detection-elipsis.png)](https://postimg.cc/JG2C5RxX)
+[![detection-elipsis.jpg](https://i.postimg.cc/QM0pWbjF/detection-elipsis.jpg)](https://postimg.cc/Y4L45QG7)
 
 [![dataframe.png](https://i.postimg.cc/Wb7j9vfg/dataframe.png)](https://postimg.cc/sv1tXtzg)
 
