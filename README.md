@@ -111,7 +111,28 @@ You get a detection and dataframe with values of all measures of each cell.
 
 **LABEL**
 
-PENDIENT
+*Require arguments*
+
+*Stage 1*
+
+You may input the path of the image.
+
+[![path-elipsis.png](https://i.postimg.cc/4NpjfRCy/path-elipsis.png)](https://postimg.cc/4mNWPMxR)
+
+*Stage 2*
+
+After you open this image wuth the path, the script generate am array to contain the intensity in each pixel with 3 different channel(RED, GREEN, BLUE), you remember any image have a RGB scale, we divide it to work in an unique colour, in this case we use RED.
+
+After we use a tool of the Scilit Image library called Thresholding, we create a mask and the script use mathematical morphology operations to remove snall objects and holes in each cell, you can see more on this topic in the next link:
+
+[Mathematical morphology](https://en.wikipedia.org/wiki/Mathematical_morphology)
+
+**Example output**:
+
+You get a detection and dataframe with values of all measures of each cell.
+
+[![LABEL-OUTPUT.jpg](https://i.postimg.cc/3N559Y36/LABEL-OUTPUT.jpg)](https://postimg.cc/R6RDZr6Q)
+
 
 **BATCH**
 
