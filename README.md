@@ -52,6 +52,11 @@ The treshold is determined automatically by the otsu method, as follows:
 
 [![label-script-logical.png](https://i.postimg.cc/SNP2rkVy/label-script-logical.png)](https://postimg.cc/7fgZPvpc)
 
+Next, the tresholded images are filtered to remove objects/cells that are too small to be a cell and holes of a certain size are filled. The values for the filtering can be filled in (we usually use the value of 7000 for both).
+Next the segmented and cleaned image is used to make labels that correspond to the cells.
+Then a loop will measure the properties of each label and create a plot and dataframe.
+In the plotted image you can now click wrongly assigned labels to remove objects that are not cells.
+Then a new dataframe is produced that contains only the correct labels and you can dowload the dataframe in Excel file(.xls).
 
 **Input:** on image of cells, we use microscope images in .tiff format.
 
