@@ -27,8 +27,15 @@ The folders are:
 
 The general strategy of both methods is to first segments the cells by intensity of the pixels.
 
-Next the elipsis method measures the cells by simple scale(black and white), background and foreground.It use on the connectivity of the pixels to each other. As long as neighboring pixels share the same value if intensity, they will be labeled as a single region, a region can be a cell.
+Next the elipsis method segments the cells based on the intensity of the pixels. You set a cutoff intensity (for example 0.5) and all pixel with lower intensities will be assigned as background and converted to pixel intensity 0, and all pixels with higher intensities will be assigned as foreground and get pixel intensity 1.
+Next, the binarized imaged will be probed by a square and in each square contain boolean values(0 or 1), the function evaluate this value and for example you have o inside of the region with the function filling, erosion and closing you convert this value  in foreground. Now the output is again a binarized image with the segmented cells having pixel intensity 1 but now the holes are filled. Adjust the cutoff intensity (usually 0.4-0.7) to the intensity that creates the best segmentation of cells without holes.
+Next, the binary image is used to detect regions that are a cell and gives a label to each of these regions. It use on the connectivity of the pixels to each other. As long as neighboring pixels share the same value if intensity, they will be labeled as a single region, a region can be a cell. 
 After I got information of each region as: area, perimeter, major axis lengths,minor axis length, etc.
+
+Next, one time we got a clear detection with properties we need we can generate a plot and dataframe.In the plot draws the measured parameters on top of the image.
+
+It is a explication on what is a elipsis and your coordenates:
+[![elipsis-theory.png](https://i.postimg.cc/rFP4DncD/elipsis-theory.png)](https://postimg.cc/Czb5t4R0)
 
 Next the label method measures the cells by Thresholding, also it use a simple scale(black and white) and replace each pixel in an image with a black pixel if the
 image intensity is less than a value or a white pixel if the image intensity is greater than that value.Returns a single intensity threshold that separate pixels into two classes,foreground and background.Use the variance generated in the histogram of intensity of each pixel in the image.
