@@ -133,7 +133,7 @@ After we use a tool of the Scilit Image library called Thresholding, we create a
 
 You get a detection and dataframe with values of all measures of each cell.
 
-[![LABEL-OUTPUT.jpg](https://i.postimg.cc/3N559Y36/LABEL-OUTPUT.jpg)](https://postimg.cc/R6RDZr6Q)
+[![label-output.png](https://i.postimg.cc/Gtf20Xvs/label-output.png)](https://postimg.cc/2L4mhFcz)
 
 You can remove a object(not cell or unclear cell) with a click in the picture but not in the Dataframe.If you want to remove in Dataframe you need filter for a value, as in the example Minor Axis Length, you can print only all the cells major at this value.
 
