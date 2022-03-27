@@ -36,7 +36,7 @@ Next, one time we got a clear detection with properties we need we can generate 
 
 It is a explication on what is a elipsis and your coordenates:
 
-[![elipsis-theory.png](https://i.postimg.cc/FFfd2b0m/elipsis-theory.png)](https://postimg.cc/s1rgWhn0)
+[![elipsis-theory.png](https://i.postimg.cc/7Ynxcbtw/elipsis-theory.png)](https://postimg.cc/sv1dGfRN)
 
 Next the label method measures the cells by Thresholding, also it use a simple scale(black and white) and replace each pixel in an image with a black pixel if the
 image intensity is less than a value or a white pixel if the image intensity is greater than that value.Returns a single intensity threshold that separate pixels into two classes,foreground and background.Use the variance generated in the histogram of intensity of each pixel in the image.
