@@ -67,7 +67,7 @@ The scripts was developed to detect and measure ellipsoidal cells.
 **Please star this repository if you like it :)**
 
 ## Installation:
-This algorithm has been implemented using **Python 3.8.8 bit 64**. To install the necessary packages for this framework run:
+This algorithm has been implemented using **Python 3.8.8 bit 64**. To install the necessary packages for this framework download the requirements.txt file and run:
 ```
 pip install -r requirements.txt
 ```
@@ -92,9 +92,7 @@ For BATCH Method you can use all this pictures to generate a folder and process 
 [![6.png](https://i.postimg.cc/xTzF6yxm/6.png)](https://postimg.cc/crdmHYN1)
 [![7.png](https://i.postimg.cc/TY1T1SP6/7.png)](https://postimg.cc/XXRRDsFH)
 
-**Here is a tutorial to set up your Automatic Cell Detector for Windows**: [Tutorial](https://github.com/Nahuel88Ar/Cells-Detection-/blob/72874b90ea4922d54d36b3e1101acefd4447c4c6/Python%20tutorial%20for%20Windows.pdf) 
-
-(*I am not exactly sure what the rules are, but if you want to use this tutorial in you own repository I think you should credti the makers*)
+**Here is a very helpful tutorial provide by HelmholtzAI-Consultants-Munich/Automatic-Cell-Counter to set up your Automatic Cell Detector for Windows**: [Tutorial](https://github.com/Nahuel88Ar/Cells-Detection-/blob/72874b90ea4922d54d36b3e1101acefd4447c4c6/Python%20tutorial%20for%20Windows.pdf) 
 
 **ELIPSIS**
 (*I think you should give a bit more explanation, let's go over it next week*)
