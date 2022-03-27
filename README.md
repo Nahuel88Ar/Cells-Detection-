@@ -140,17 +140,14 @@ You can remove a object(not cell or unclear cell) with a click in the picture bu
 [![Removed-cell.jpg](https://i.postimg.cc/fkQnv82j/Removed-cell.jpg)](https://postimg.cc/wR2GqQd7)
 [![click2.png](https://i.postimg.cc/nVjX0MSC/click2.png)](https://postimg.cc/RqmC0CBB)
 
-Filter in the dataframe:
+Filter in the dataframe and download the new Dataframe in Excel:
+
 [![filter-dataframe.png](https://i.postimg.cc/4xB4JT2D/filter-dataframe.png)](https://postimg.cc/ZWvzcXSH)
-
-
-
-
 
 
 **BATCH**
 
-PENDIENT
+This method is Label but run as batch, only have two difference with the Label script, first you open a folder with the Glob2 Library and you need
 
 
 **Input:** on image of cells, we use microscope images in .tiff format.
