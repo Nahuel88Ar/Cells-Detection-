@@ -25,6 +25,8 @@ The folders are:
 
 **REQUIREMENTS:** Text file listing all required libraries and version.
 
+## Elipsis
+
 The general strategy of both methods is to first segments the cells by intensity of the pixels.
 
 Next the elipsis method segments the cells based on the intensity of the pixels. You set a cutoff intensity (for example 0.5) and all pixel with lower intensities will be assigned as background and converted to pixel intensity 0, and all pixels with higher intensities will be assigned as foreground and get pixel intensity 1.
@@ -38,8 +40,18 @@ It is a explication on what is a elipsis and your coordenates:
 
 [![elipsis-theory.png](https://i.postimg.cc/7Ynxcbtw/elipsis-theory.png)](https://postimg.cc/sv1dGfRN)
 
-Next the label method measures the cells by Thresholding, also it use a simple scale(black and white) and replace each pixel in an image with a black pixel if the
-image intensity is less than a value or a white pixel if the image intensity is greater than that value.Returns a single intensity threshold that separate pixels into two classes,foreground and background.Use the variance generated in the histogram of intensity of each pixel in the image.
+Next, it run a loop for each properties in a region. We plot the minor and major length axis. In the last part you write the properties that you wish to get in your Dataframe. Finally, you can download this Dataframe in a excel file(.xls).
+
+## Label
+
+The general strategy of both methods is to first segments the cells by intensity of the pixels.
+First the original RGB imaged is converted to a grey scale image where only the red channel is considered.
+Next the label method detects the cells by Thresholding, also it use a simple scale(black and white) and replace each pixel in an image with a black pixel if the
+image intensity is less than a value or a white pixel if the image intensity is greater than that value. Returns a single intensity threshold that separate pixels into two classes,foreground and background. Use the variance generated in the histogram of intensity of each pixel in the image.
+The treshold is determined automatically by the otsu method, as follows:
+
+[![label-script-logical.png](https://i.postimg.cc/SNP2rkVy/label-script-logical.png)](https://postimg.cc/7fgZPvpc)
+
 
 **Input:** on image of cells, we use microscope images in .tiff format.
 
