@@ -98,20 +98,19 @@ You get a detection and dataframe with values of all measures of each cell.
 
 [![dataframe2.png](https://i.postimg.cc/sxQ6m2mC/dataframe2.png)](https://postimg.cc/gLpHkm1g)
 
+
 ## Label
 
-The general strategy of both methods is to first segments the cells by intensity of the pixels.
-First the original RGB imaged is converted to a grey scale image where only the red channel is considered.
-Next the label method detects the cells by Thresholding, also it use a simple scale(black and white) and replace each pixel in an image with a black pixel if the
-image intensity is less than a value or a white pixel if the image intensity is greater than that value. Returns a single intensity threshold that separate pixels into two classes,foreground and background. Use the variance generated in the histogram of intensity of each pixel in the image.
-The treshold is determined automatically by the otsu method, as follows:
-
+The general strategy of both methods is to first segment the cells based on pixel intensities.
+For the method 'label' the original RGB imaged is converted to a grey scale image where only the red channel is considered.
+Next, the label method detects the cells by thresholding that separate pixels into two classes,foreground and background. The tresholding is done automatically according to Otsu's method. This method uses the intesity histogram to determine the intensity treshold that minimizes intra-class intensity variance. Pixels that are below the treshold will be assigned to be background, and pixels above the treshold will be assigned foreground. 
 [![label-script-logical.png](https://i.postimg.cc/SNP2rkVy/label-script-logical.png)](https://postimg.cc/7fgZPvpc)
 
-Next, the tresholded images are filtered to remove objects/cells that are too small to be a cell and holes of a certain size are filled. The values for the filtering can be filled in (we usually use the value of 7000 for both).
-Next the segmented and cleaned image is used to make labels that correspond to the cells.
-Then a loop will measure the properties of each label and create a plot and dataframe.
-In the plotted image you can now click wrongly assigned labels to remove objects that are not cells.
+The resulting binarized images are filtered to remove objects/cells that are too small to be a cell and fill holes of a certain size. The values for the filtering can be filled in (we usually use the value of 7000 for both).
+Next the segmented and cleaned image is used to assign labels to regions that correspond to cells.
+Then a loop will measure the properties of each label and create an image and dataframe.
+The produced image contains shows the identified regions, you can now click wrongly assigned labels to remove regions that are not cells.
+Based on the labels that are left, you can determine the best cutoff values to create a subset of regions that only contains cells.
 Then a new dataframe is produced that contains only the correct labels and you can dowload the dataframe in Excel file(.xls).
 
 *Require arguments*
