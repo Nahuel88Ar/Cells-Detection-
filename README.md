@@ -1,17 +1,17 @@
 # Cells diatoMeasure 
 
 ## What is this?
-This repository provides automatic algorithms to detect and measures the size of each cell in 2D microscopy images from Diatoms Cells.There is 2 different independent scripts called 'elipsis' and 'label'. Also LABEL can be run in batch.  
+This repository provides automatic algorithms to detect and measure the size of each cell in 2D microscopy images from diatoms cells. There are 2 independent scripts called 'elipsis' and 'label'. Also LABEL can be run in batch.  
 
-It contain 4 files and 4 folders.
+It contains 4 files and 4 folders.
 
 The files are:
 
-**Python Tutorial for Windows** Tutorial where can see as install the software and the correct packages to use the scripts.
+**Python Tutorial for Windows** Tutorial describing how to install the software and the correct packages to use the scripts.
 
-**README:** General description of all the proyect.
+**README:** General description of all the project.
 
-**Elipsis and Label Logical Process:** Description of the theorical and logical base of the proyect.
+**Elipsis and Label Logical Process:** Description of the theorical and logical base of the project.
 
 **Requirements:** All the libraries you need to install to run the scripts.
 
@@ -19,28 +19,29 @@ The folders are:
 
 **IMAGES:** All the images of my proyect since the first stage until last stage in each script.
 
-**PROPERTIES:** It contains all the measures you can get with those scripts.
+**PROPERTIES:** Contains a description of the properties that can be measured using the scripts.
 
-**SCRIPTS:** It contains the python scripts that run the cell detection and measurement.
+**SCRIPTS:** Contains the python scripts that run the cell detection and measurement.
 
-**REQUIREMENTS:** Text file listing all required libraries and version.
+**REQUIREMENTS:** Text file listing all required libraries and versions.
 
 ## Elipsis
 
-The general strategy of both methods is to first segments the cells by intensity of the pixels.
+The general strategy of both methods is to first segment the cells based on pixel intensities.
 
-Next the elipsis method segments the cells based on the intensity of the pixels. You set a cutoff intensity (for example 0.5) and all pixel with lower intensities will be assigned as background and converted to pixel intensity 0, and all pixels with higher intensities will be assigned as foreground and get pixel intensity 1.
-Next, the binarized imaged will be probed by a square and in each square contain boolean values(0 or 1), the function evaluate this value and for example you have o inside of the region with the function filling, erosion and closing you convert this value  in foreground. Now the output is again a binarized image with the segmented cells having pixel intensity 1 but now the holes are filled. Adjust the cutoff intensity (usually 0.4-0.7) to the intensity that creates the best segmentation of cells without holes.
-Next, the binary image is used to detect regions that are a cell and gives a label to each of these regions. It use on the connectivity of the pixels to each other. As long as neighboring pixels share the same value if intensity, they will be labeled as a single region, a region can be a cell. 
-After I got information of each region as: area, perimeter, major axis lengths,minor axis length, etc.
+The elipsis method first converts the RGB microscope image to a grayscale image in which all pixels have a greyscale value between 0 and 1. Then the image is binarized (all pixels either 0 or 1) to assign each pixel to be either background or foreground (cells). You have to set a cutoff intensity (for example 0.5) and all pixel with lower intensities will be assigned as background and converted to pixel intensity 0, and all pixels with higher intensities will be assigned as foreground and get pixel intensity 1.
+Next, the binarized imaged will be probed by a 3by3 pixels square (np.array) and four morphological operations, dialation, erosion, filling and closing will be applied. Each square will have a boolean value and the function will evaluate this value, for example you have 0 inside of the region with the function filling, erosion and closing you convert this value in foreground. 
+For dialation, the maximum pixel intensity within the square will be determined and the center pixel in the square will be assigned to have that maximum pixel intensity. Erosion does a similar operation but considering the minimum intensity. 
+The output is  a binarized image with the segmented cells having pixel intensity 1 but now the holes are filled and edges are more smooth. 
+Adjust the cutoff intensity (usually 0.4-0.7) to the intensity that creates the best segmentation of cells without holes.
 
-Next, one time we got a clear detection with properties we need we can generate a plot and dataframe.In the plot draws the measured parameters on top of the image.
+Next, the cleaned binary image is used to detect regions that are a cell and assigns a label to each of these regions. It uses the connectivity of the pixels to determine regions, as long as neighboring pixels share the same value if intensity, they will be labeled as a single region, a region can be a cell. 
+Then you can analyze parameters of the detected regions: area, perimeter, major axis lengths, minor axis length, etc. A loop will run along each region and measure the indicated paremeters. The output are an image with the minor axis length and major axis length plotted onto the detected regions and a dataframe summarizing all measurements. Finally, you can download this Dataframe in a excel file(.xls).
 
-It is a explication on what is a elipsis and your coordenates:
 
+This is a explication on what is a elipsis and your coordenates:
 [![elipsis-theory.png](https://i.postimg.cc/7Ynxcbtw/elipsis-theory.png)](https://postimg.cc/sv1dGfRN)
 
-Next, it run a loop for each properties in a region. We plot the minor and major length axis. In the last part you write the properties that you wish to get in your Dataframe. Finally, you can download this Dataframe in a excel file(.xls).
 
 ## Usage:
 
